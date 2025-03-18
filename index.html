@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML5 Images, lists, and forms</title>
+    </head>
+    <body>
+        <header>
+            <h1>Exploring HTML5 Lists Forms and Tables</h1>
+        </header>
+        <h2>1. Ordered list</h2>
+        <h3>My grocery shopping list</h3>
+        <ol type="I">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Carrots</li>
+            <li>Milk</li>
+            <li>Cheese</li>
+            <li>Rice</li>
+            <li>Pasta</li>
+            <li>Beans</li>
+            <li>Nuts</li>
+            <li>Chocolate</li>
+            <li>Tomatoes</li>
+        </ol>
+        <br>
+       <figure>
+            <img src="Tomatoes.jpg" alt="A picture of ripe red tomatoes" width="250" height="200">
+            <figcaption>Ripe tomatoes</figcaption>
+        </figure> 
+        <figure>
+            <img src="bananas.jpg" alt="A picture of ripe bananas" width="250" height="250">
+            <figcaption>Ripe bananas</figcaption>
+        </figure>
+        <br>
+        <h2>2. Contact List</h2>
+        <h3>Below is a table of my top 5 grocery contacts</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile Number</th>
+                    <th>Email</th>
+                </tr>
+            </thead>            
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Street, Nairobi</td>
+                    <td>0790876542</td>
+                    <td>John@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Wataita</td>
+                    <td>456 Avenue, Kenyatta</td>
+                    <td>0723109210</td>
+                    <td>jane@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alex Kindiki</td>
+                    <td>789 Avenue, Moi </td>
+                    <td>0789098765</td>
+                    <td>alex@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Amma Kamau</td>
+                    <td>782 Lane, Nairobi</td>
+                    <td>0726789043</td>
+                    <td>Amma@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mike Njoroge</td>
+                    <td>202 Street, Biashara</td>
+                    <td>0735678902</td>
+                    <td>Mike@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form>
+            <h2>3. Register here</h2>
+            <h3>Fill out this form to be connected with grocery dealers</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>   
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <label>Subscription Type:</label>
+            <br>
+            <input type="radio" id="free" name="subscription" value="free">
+            <label for="free">Free</label>
+            <br>
+            <input type="radio" id="premium" name="subscription" value="premium">
+            <label for="premium">Premium</label>
+            <br><br>
+            <label>Interests:</label>
+            <br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <br>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label>
+            <br>
+            <input type="checkbox" id="marketing" name="interests" value="marketing">
+            <label for="marketing">Marketing</label>
+            <br><br>
+            <button type="submit">Register</button>
+        </form>
+        <footer>Naomi Chepkorir 
+            namiekoks@gmail.com
+        </footer>
+    </body>
+
+</html>
